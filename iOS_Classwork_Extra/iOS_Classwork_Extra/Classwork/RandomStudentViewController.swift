@@ -25,8 +25,8 @@ class RandomStudentViewController: UIViewController {
         self.nameLabel.text = randomStudentName
         self.trackLabel.text =  randomStudentTrack
         
-        // MARK:   (8) أزل الملاحظة عن الكودالتالي كي تعمل الصور
-         self.profileImageView.image = UIImage(named: randomStudent.imageName())
+//         MARK:   (8) أزل الملاحظة عن الكودالتالي كي تعمل الصور
+        self.profileImageView.image = UIImage(named: randomStudent.imageName())
     }
 }
 
